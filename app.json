@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "my-project",
+    "slug": "my-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-itenas.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo-itenas.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"      
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
